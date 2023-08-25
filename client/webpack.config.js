@@ -18,14 +18,17 @@ module.exports = () => {
       path: path.resolve(__dirname, "dist"),
     },
     plugins: [
+      // generates a new html page that has all necessery links on it
       new HtmlWebpackPlugin({
         template: "./index.html",
         title: "Text-Editor",
       }),
+      // creating caching
       new InjectManifest({
         swSrc: "./src-sw.js",
         swDest: "service-worker.js",
       }),
+      // running the app offline
       new WebpackPwaManifest({
         name: "Text-Editor",
         short_name: "TE",
@@ -38,7 +41,7 @@ module.exports = () => {
           {
             src: path.resolve("src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join("assets", "icons"),
+            destination: path.join("assets", "icons"), // creates assets/icons directory. inside of the icons folder there will be six images with different sizes
           },
         ],
       }),
@@ -51,15 +54,16 @@ module.exports = () => {
           use: ["style-loader", "css-loader"],
         },
         {
-          test: /\.m?js$/,
+          test: /\.m?js$/, // .mjsc .js
           exclude: /node_modules/,
           use: {
+            // converts the java script to be compatible with different env ES5 / ES6
             loader: "babel-loader",
             options: {
-              presets: ["@babel/preset-env"],
+              presets: ["@babel/preset-env"], // renders the env of the browser
               plugins: [
-                "@babel/plugin-proposal-object-rest-spread",
-                "@babel/transform-runtime",
+                "@babel/plugin-proposal-object-rest-spread", // ensures that you are using ES6 or 5 with spread operator
+                "@babel/transform-runtime", // reduces the size of teh package
               ],
             },
           },
