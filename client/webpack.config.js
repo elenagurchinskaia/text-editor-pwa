@@ -26,7 +26,7 @@ module.exports = () => {
       // creating caching
       new InjectManifest({
         swSrc: "./src-sw.js",
-        swDest: "service-worker.js",
+        swDest: "src-sw.js",
       }),
       // running the app offline
       new WebpackPwaManifest({
