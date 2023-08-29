@@ -18,13 +18,10 @@ Introducing a modern text editor web app with an organized folder structure for 
 ## Technology Used
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Webpack](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Workbox](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Node.js](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Express.js](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [npm](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Heroku](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Node.js](https://nodejs.org/en)
+- [Express.js](https://expressjs.com/)
+- [npm](https://www.npmjs.com/)
+- [Heroku](https://www.heroku.com/platform)
 
 ## Deployment
 
