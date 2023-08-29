@@ -25,7 +25,7 @@ Introducing a modern text editor web app with an organized folder structure for 
 
 ## Deployment
 
-[Text Editor](https://github.com/elenagurchinskaia/text-editor-pwa)
+[Text Editor](https://elenas-text-editor-88a9e38cd9e8.herokuapp.com/)
 
 ![alt text](./client/src/images/text-editor.png)
 
