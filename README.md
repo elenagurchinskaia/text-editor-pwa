@@ -4,67 +4,33 @@
 
 ## Description
 
-The Tech Blog is a web application that allows users to create and share their blog posts. Users can sign up, log in, and create their own blog posts. Each blog post can have multiple comments from other users. The platform provides a dashboard where users can manage their own blog posts and view comments on their posts. Users can also explore a homepage that displays recent blog posts and their associated comments. The platform ensures user authentication and authorization, allowing only logged-in users to perform actions like creating blog posts and leaving comments.
+Introducing a modern text editor web app with an organized folder structure for smooth development. It effortlessly sets up backend and client serving using npm run start. Powered by Webpack, it optimizes JavaScript files for performance. Leveraging next-gen JavaScript, the app remains functional and error-free. IndexedDB ensures automatic content saving, and Workbox provides a smooth experience by pre-caching assets.
 
 ## Table of Contents
 
 - [Description](#description)
-- [Key Features](#key-features)
 - [Technology Used](#technology-used)
 - [Deployment](#deployment)
-- [Installation](#installation)
-- [License](#e-commerce-back-end)
+- [License](#text-editor)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
-## Key Features
-
-- User authentication and authorization system.
-- Sign up and log in functionalities.
-- Create, edit, and delete blog posts.
-- Leave comments on blog posts.
-- View recent blog posts and their comments on the homepage.
-- User dashboard to manage their blog posts.
-- Responsive and user-friendly interface.
-
 ## Technology Used
 
-### Front-end
-
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-### Back-end
-
-- [Node.js](https://nodejs.org/)
-- [Express.js](https://expressjs.com/)
-
-### Database
-
-- [MySQL](https://www.mysql.com/)
-
-### User Authentication
-
-- [Bcrypt](https://www.npmjs.com/package/bcrypt)
-
-### Session management
-
-- [Express-session](https://www.npmjs.com/package/express-session)
-
-### Templating engine
-
-- [Handlebars](https://handlebarsjs.com/)
+- [Webpack](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Workbox](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Node.js](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Express.js](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [npm](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Heroku](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Deployment
 
-[The Tech Blog](https://github.com/elenagurchinskaia/tech-blog)
+[Text Editor](https://github.com/elenagurchinskaia/text-editor-pwa)
 
-![alt text](./public/images/tech-blog.png)
-
-## Installation
-
-N/A
+![alt text](./client/src/images/text-editor.png)
 
 ## Contributing
 
