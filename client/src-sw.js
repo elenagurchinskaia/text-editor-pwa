@@ -46,5 +46,26 @@ registerRoute(
   })
 );
 
-// ------------------- offlineFallback function ------------------ //
-// add offlineFallback
+// ------------------- offline fallback function ------------------ //
+
+// const offlineFallback = (request) => {
+//   return caches.match(request).then((cachedResponse) => {
+//     if (cachedResponse) {
+//       return cachedResponse;
+//     }
+
+//     return fetch(request).then((response) => {
+//       const responseClone = response.clone();
+//       caches.open("offline-cache").then((cache) => {
+//         cache.put(request, responseClone);
+//       });
+//       return response;
+//     });
+//   });
+// };
+
+// self.addEventListener("fetch", (event) => {
+//   event.respondWith(
+//     fetch(event.request).catch(() => offlineFallback(event.request))
+//   );
+// });

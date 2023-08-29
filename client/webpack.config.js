@@ -31,6 +31,8 @@ module.exports = () => {
       // running the app offline
       new WebpackPwaManifest({
         name: "Text-Editor",
+        fingerprints: false,
+        inject: true,
         short_name: "TE",
         description: "Edit the text!",
         background_color: "#7eb4e2",
